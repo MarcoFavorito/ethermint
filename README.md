@@ -76,7 +76,7 @@ things we need help with!
 
 ## Support
 
-Check out the [community page](https://tendermint.com/community) for various resources.
+Check out the [community page](https://tendermint.com/community) for various resources
 
 ## License
 
