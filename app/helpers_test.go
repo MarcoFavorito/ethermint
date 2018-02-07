@@ -46,7 +46,8 @@ func (mc *MockClient) Call(method string, params map[string]interface{},
 	case "status":
 		result = &ctypes.ResultStatus{}
 		return result, nil
-	case "broadcast_tx_sync":
+	//case "broadcast_tx_sync":
+	case "broadcast_tx_commit":
 		close(mc.SentBroadcastTx)
 		result = &ctypes.ResultBroadcastTx{}
 		return result, nil

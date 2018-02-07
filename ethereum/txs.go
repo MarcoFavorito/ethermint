@@ -41,7 +41,7 @@ func (b *Backend) BroadcastTx(tx *ethTypes.Transaction) error {
 		"tx": buf.Bytes(),
 	}
 
-	_, err := b.client.Call("broadcast_tx_sync", params, &result)
+	_, err := b.client.Call("broadcast_tx_commit", params, &result)
 	return err
 }
 

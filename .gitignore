@@ -1,4 +1,7 @@
 ### Custom ###
+.idea/
+
+
 # Allow developers to maintain a local todo file
 TODO.md
 
